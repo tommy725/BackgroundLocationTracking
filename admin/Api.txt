@@ -1,0 +1,34 @@
+BaseUrl: http://www.flexondemand.com/FlexAR/
+
+User Login 
+method: Get
+url:    http://www.flexondemand.com/FlexAR/Api/login?email=test1@gmail.com&password=123456
+
+User Login By User_id
+method: Get
+url:    http://www.flexondemand.com/FlexAR/Api/loginById?user_id=1
+
+Change Password
+method: Get
+url:    http://www.flexondemand.com/FlexAR/Api/changePWD?email=test1@gmail.com&password=123456
+
+Report Trigger Count
+method: Get
+url:    http://www.flexondemand.com/FlexAR/Api/reportTrigger?user_id=1&target_id=14a43d603b164da9a423df090d47ea1c
+
+Get Terms
+method: Get
+url:    http://www.flexondemand.com/FlexAR/Api/terms/
+
+
+Request Register
+method: Post
+url:    http://www.flexondemand.com/FlexAR/Api/requestReg
+Param: 	fname, company, email, phone
+
+Request Change Password
+method: Post
+url:    http://www.flexondemand.com/FlexAR/Api/requestPwdChange
+Param:	userId, email, pass, fname
+
+

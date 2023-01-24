@@ -1,0 +1,6 @@
+{
+    "require": {
+        "mongodb/mongodb": "^1.7",
+        "ol": "7.2.2"
+    }
+}

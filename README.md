@@ -1,2 +1,2 @@
 # BackgroundLocationTracking
-![](capture.png)
+![](Capture.png)
